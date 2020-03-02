@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.serverAddress{
+  display:flex;
+  flex-direction:flow
+}
+.lock{
+  display:flex;
+  flex-direction:flow
+}
+.unlock{
+  display:flex;
+  flex-direction:flow
+}
+.chatList{
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height:150px
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
